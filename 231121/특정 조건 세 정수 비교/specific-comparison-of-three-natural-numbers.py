@@ -1,8 +1,8 @@
-inp = input()
-arr = inp.split()
-a = int(arr[0])
-b = int(arr[1])
-c = int(arr[2])
+inp = input().split()
+
+a = int(inp[0])
+b = int(inp[1])
+c = int(inp[2])
 
 # 출력
 if a <= b and a <= c:
