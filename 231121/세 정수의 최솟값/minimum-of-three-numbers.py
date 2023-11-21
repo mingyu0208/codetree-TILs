@@ -1,5 +1,5 @@
 inp = input().split()
-a, b, c = int(arr[0]), int(arr[1]), int(arr[2])
+a, b, c = int(inp[0]), int(inp[1]), int(inp[2])
 
 if a<=b and a<=c:
 	print(a)
