@@ -1,8 +1,6 @@
 inp = input().split()
 
-a = int(inp[0])
-b = int(inp[1])
-c = int(inp[2])
+a,b,c = int(inp[0]),int(inp[1]),int(inp[2])
 
 # 출력
 if a <= b and a <= c:
