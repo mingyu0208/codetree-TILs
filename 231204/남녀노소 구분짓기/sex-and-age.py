@@ -5,11 +5,10 @@ if a==0:
     if b>=19:
         print('MAN')
     else:
-        print('WOMAN')
-
-
-else:
-    if a==0:
         print('BOY')
+    
+else:
+    if a>=19:
+        print('WOMAN')
     else:
         print('GIRL')
