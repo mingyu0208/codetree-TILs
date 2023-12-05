@@ -7,7 +7,7 @@ elif n<=7:
         print(30)
     else:
         print(31)
-elif n>=7:
+else:
     if n%2==0:
         print(31)
     else:
