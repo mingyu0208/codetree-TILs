@@ -1,7 +1,7 @@
 a,b =map(int,input().split())
 
-if a==int(a):
+if a==float(a):
     for i in range(b):
         print(a,end="")
-elif a<=0:
-    print(0,end="")
+else:
+    print(0)
