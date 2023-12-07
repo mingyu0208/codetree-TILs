@@ -1,10 +1,7 @@
-a=float(input().split())
-b=float(input())
+a, b = map(int,input().split())
 
-if a==float(a):
-    for i in range(b):
+if a>0:
+    for _ in range(b):
         print(a,end="")
-
-
-if a<=0:
-    print(0)
+else:
+    print(0,end="")
