@@ -3,4 +3,4 @@ a,b = map (int,input().split())
 one =a
 two = b
 
-print(f"{(decimal.Decimal(str(one))/two):.20f}")
+print(f"{(decimal.Decimal(str(one))/two):.21f}")
