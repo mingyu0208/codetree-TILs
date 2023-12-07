@@ -7,7 +7,7 @@ two = b
 
 
 print(f"{one//two}.",end="")
-
+one%=two
 for i in range(20):
     one*=10
     print(one//two,end="")
