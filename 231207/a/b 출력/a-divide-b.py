@@ -1,4 +1,4 @@
-import decimal
+# import decimal
 a,b = map (int,input().split())
 one =a
 two = b
