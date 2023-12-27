@@ -1,5 +1,7 @@
 a,b = map(int,input().split())
 answer=1
 
-answer=a**b
+for _ range(b):
+    answer*=a
+
 print(answer)
