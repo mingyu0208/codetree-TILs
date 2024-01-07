@@ -4,6 +4,6 @@ while True:
     cnt+=1
     if n%2==0:
         print(n//2)
-        if cnt>=3:
-            break
-        continue
+        if cnt<4:
+            continue
+        break
