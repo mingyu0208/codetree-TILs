@@ -1,5 +1,4 @@
 cnt = 0
-
 while True:
     n = int(input())
     cnt+=1
@@ -7,3 +6,4 @@ while True:
         print(n//2)
         if cnt>3:
             break
+        continue
