@@ -1,14 +1,14 @@
 n = int(input())
 
-sat =False
+sat =True
 
 for i in range(2,n):
     if n%i==0:
-        sat = True
+        sat = False
 
 
 
-if sat == False:
+if sat == True:
     print("P")
 else:
     print("C")
