@@ -1,4 +1,4 @@
-sat = True
+sat = False
 
 for _ in range(5):
     n= int(input())
