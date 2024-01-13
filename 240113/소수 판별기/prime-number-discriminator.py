@@ -2,7 +2,7 @@ n = int(input())
 
 sat =False
 
-for i in range(1,n):
+for i in range(2,n):
     if i%n==0:
         sat = True
 
