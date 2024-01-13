@@ -2,9 +2,12 @@ a,b = map(int,input().split())
 
 sat = False
 
-for i in range(1,a+1):
-    if a%i==0 and b%i==0:
-        sat=True
+
+
+
+for i in range(a,b+1):
+    if 1920%i==0 and  2880%i==0:
+        sat=True 
 
 
 if sat == True:
