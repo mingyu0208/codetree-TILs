@@ -3,12 +3,12 @@ n = int(input())
 sat =False
 
 for i in range(2,n):
-    if i%n==0:
+    if n%i==0:
         sat = True
 
 
 
-if sat == True:
+if sat == False:
     print("P")
 else:
     print("C")
