@@ -1,12 +1,9 @@
 n = int(input())
 
 for i in range(n):
-    if i%2==0:
-        for j in range(n):
+    for j in range(n):
+        if i%2==0:
             print(j+1,end="")
-        print()
-
-    else:
-        for j in range(n):
+        else:
             print(n-j,end="")
-        print()
+    print()
