@@ -7,7 +7,7 @@ cnt = 1
 for i in arr:
     if min_val > i:
         min_val = i
-        if min_val ==i:
-            cnt+=1
+        cnt+=1
+        
 
 print(f'{min_val} {cnt}')
