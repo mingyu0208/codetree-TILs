@@ -7,6 +7,7 @@ for i in arr:
         break
     if i>max_val:
         max_val = i
-    if i< max_val:
+
+    if i< min_val:
         min_val = i
 print(max_val, min_val)
