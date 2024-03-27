@@ -1,13 +1,10 @@
 n = int(input())
-arr = list(map(int,input().split()))
-cnt = arr.count(2)
-cnt_2 = 0
+arr = list(map(int, input().split()))
+cnt = 0
 
 for i in range(n):
-    if cnt_2 <3:
-        if arr[i] != 2:
-            cnt-=1
-            cnt_2+=1
-    else:
-        break
-print(cnt+1)
+    if arr[i] == 2:
+        cnt += 1
+        if cnt == 3:
+            print(i+1)  # 위치는 1부터 시작하므로 인덱스에 1을 더해 출력합니다.
+            break
