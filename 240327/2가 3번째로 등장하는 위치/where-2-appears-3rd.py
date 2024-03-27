@@ -7,4 +7,4 @@ for a,b in enumerate(arr):
             cnt+=1
     
 if cnt==3:
-    print(cnt)
+    print(arr[a]+1)
