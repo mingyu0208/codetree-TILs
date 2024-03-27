@@ -1,13 +1,10 @@
 n = int(input())
 arr = list(map(int,input().split()))
-lis_val =[]
-cnt = 1
-
-for i in range(n):
+cnt = 0
+for a,b in enumerate(arr):
+    while cnt<3:
+        if b == 2:
+            cnt+=1
     
-    if arr[i] == 2 and cnt<3:
-        cnt+=1
-    else:
-        continue
-
-print(cnt)
+if cnt==3:
+    print(cnt)
