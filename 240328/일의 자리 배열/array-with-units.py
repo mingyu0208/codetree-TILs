@@ -1,5 +1,5 @@
 # arr = int(input().split())
-a,b = tuple(map(int,input().split()))
+a,b = list(map(int,input().split()))
 arr = [a,b]
 # arr.append(a)
 # arr.append(b)
