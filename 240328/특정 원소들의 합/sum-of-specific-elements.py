@@ -11,10 +11,14 @@
 # # for i in :
 # #     print(,end=" ")
 
-lst =[list(map(int, input().split())) for i in range(4)]
-ssum=0
-for j, i in enumerate(lst, start=1):
-    ssum += sum(i[ :j])
-    
-    
-print(ssum)
+
+arr_2d = [
+    list(map(int, input().split()))
+    for i in range(4)
+]
+sum_val = 0
+	
+for i in range(4):
+    for j in range(i+1):
+        sum_val+= arr_2d[i][j]
+print(sum_val)
