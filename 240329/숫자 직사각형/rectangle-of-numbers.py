@@ -1,14 +1,17 @@
-n, m = tuple(map(int, input().split()))
-arr_2d = [
-    [0 for _ in range(m)]
-    for _ in range(n)
-]
+n,m = list(map(int,input().split()))
 
-num = 1
+arr_d2 = [
+    [0 for i in range(m)]
+    for j in range(n)
+]
+cnt = 1
+
 for i in range(n):
     for j in range(m):
-        arr_2d[i][j] = num
-        num += 1
+        arr_d2[i][j] = cnt 
+        cnt+=1
 
-for sub_arr in arr_2d:
-    print(*sub_arr)
+for i in arr_d2:
+    for j in i:
+        print(j,end=" ")
+    print()
