@@ -8,4 +8,6 @@ for i in range(n):
         arr_2d[j][i] = cnt
         cnt+=1
 for elem in arr_2d:
-    print(*elem)
+    for row in elem:
+        print(row,end=" ")
+    print()
