@@ -13,4 +13,4 @@ for i in range(1, n):
 
 
 for elem in arr_list:
-    print(elem)
+    print(*elem)
