@@ -4,6 +4,6 @@ s3 = input()
 
 leng1, leng2, leng3 = len(s1), len(s2), len(s3)
 
-arr = leng1, leng2, leng3
+arr = leng1, leng2, leng3 
 
 print(min(arr))
