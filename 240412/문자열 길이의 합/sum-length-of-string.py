@@ -7,13 +7,8 @@ arr = [
 cnt = 0
 a_sum = 0
 
-    
-
-for i in arr:
-    for elem in i:
-        if elem[0] == 'a':
-            a_sum+=1
-    for j in i:
-        cnt+=1
-
+for i in range(n):
+    cnt += len(arr[i])
+    if arr[i][0] == 'a':
+        a_sum+=1
 print(f'{cnt} {a_sum}')
