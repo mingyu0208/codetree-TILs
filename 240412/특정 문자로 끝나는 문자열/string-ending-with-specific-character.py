@@ -10,5 +10,5 @@ for i in range(10):
         print(arr[i])
         cnt+=1
 
-if cnt==10:
+if cnt==0:
     print('None')
