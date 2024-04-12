@@ -5,11 +5,14 @@ arr = [
     for _ in range(n)
 ]
 cnt = 0
-a_sum = 1
+a_sum = 0
+
+    
 
 for i in arr:
-    if i in 'a':
-        a_sum+=1
+    for elem in i:
+        if elem in 'a':
+            a_sum+=1
     for j in i:
         cnt+=1
 
