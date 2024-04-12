@@ -11,7 +11,7 @@ a_sum = 0
 
 for i in arr:
     for elem in i:
-        if elem in 'a':
+        if elem[0] == 'a':
             a_sum+=1
     for j in i:
         cnt+=1
