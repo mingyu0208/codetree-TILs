@@ -1,17 +1,16 @@
 n = int(input())
-
-arr =[]
-num_cnt= 0
-avr_cnt = 0
+arr = [input() for _ in range(n)]
+end= input()
+cnt = 0
+sum_val = 0
 for i in range(n):
-    inp = input()
-    arr.append(inp)
+        for j in range(n):
+            sum_val+=j
+            
+        
+        if arr[i][0] == end:
+            cnt+=1
 
-split_chr = input()
-for i in range(0,n):
-   
-    if arr[i][0] == split_chr :
-        num_cnt += 1
-        avr_cnt += len(arr[i])
-avr_cnt = round(avr_cnt/num_cnt)
-print(f"{num_cnt} {avr_cnt:.2f}")
+avg = sum_val/n
+
+print(f'{cnt} {avg:.2f}')
