@@ -1,5 +1,5 @@
 m = int(input())
-cnt = 0
+global cnt = 0
 for _ in range(m):
     n = int(input())
     
