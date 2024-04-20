@@ -1,5 +1,7 @@
 start, end = map(int,input().split())
 ans = 0
+import sys
+input = sys.stdin.readline
 
 for elem in range(start,end+1):
     sum_val = 0
